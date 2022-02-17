@@ -1,0 +1,7 @@
+$wrap: 'header-component';
+
+.#{$wrap} {
+  &__title {
+    font-family: "Permanent Marker", cursive;
+  }
+}

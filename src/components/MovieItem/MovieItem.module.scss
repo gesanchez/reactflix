@@ -1,0 +1,11 @@
+$wrap: 'movie-item';
+
+.#{$wrap} {
+  cursor: pointer;
+  &__banner {
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: none;
+  }
+}
